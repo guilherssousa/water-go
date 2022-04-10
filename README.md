@@ -15,3 +15,7 @@ Depois, execute rodando o programa com o comando `./main` e passando os argument
 ```bash
     ./main <diretorio-a-assistir>
 ```
+
+## Licença
+
+O código está sobre a licença The Unlicense. Qualquer pessa pode usar, modificar e redistribuir o código livremente.
