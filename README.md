@@ -1,4 +1,4 @@
-## Water
+## 💧 Water
 
 Water é uma ferramenta para observar alterações em arquivos para otimizar sua experiência de desenvolvimento.
 
