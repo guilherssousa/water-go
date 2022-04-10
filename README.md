@@ -10,7 +10,7 @@ Water é um projeto criado por um programador Javascript, que casualmente utiliz
 
 Primeiro, compile o código usando o comando `go build main.go`.
 
-Depois, execute rodando o programa com o comando `./main`e passando os argumentos da seguinte forma:
+Depois, execute rodando o programa com o comando `./main` e passando os argumentos da seguinte forma:
 
 ```bash
     ./main <diretorio-a-assistir>
