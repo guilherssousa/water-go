@@ -3,6 +3,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -11,6 +12,8 @@ import (
 )
 
 func main() {
+	fmt.Println("💧 Water")
+
 	watcher, err := fsnotify.NewWatcher();
 
 	if err != nil {
@@ -28,12 +31,12 @@ func main() {
 				if !ok {
 					return
 				}
-				log.Printf("%s %s\n", event.Name, event.Op)
+				log.Printf("%s: %s\n", event.Name, event.Op)
 			case err, ok := <-watcher.Errors:
 				if !ok {
 					return
 				}
-				log.Println("error:", err)
+				log.Println("Error:", err)
 			}
 		}
 	}()
